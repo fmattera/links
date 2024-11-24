@@ -2,9 +2,9 @@
   "private": true,
   "name": "links",
   "version": "0.0.0",
-  "description": "tszhong0411's social media links",
+  "description": "fmattera's social media links",
   "license": "MIT",
-  "author": "tszhong0411 <me@honghong.me> (https://github.com/tszhong0411/)",
+  "author": "fmattera <f.mattera.it@gmail.com> (https://github.com/fmattera/)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tszhong0411/links.git"
