@@ -11,7 +11,7 @@ type RootLayoutProps = {
   children: React.ReactNode
 }
 
-const SITE_URL = process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3000'
+const SITE_URL = process.env.NODE_ENV === 'production' ? 'http://localhost:3000' : 'http://localhost:3000'
 const SITE_DESCRIPTION = "Let's connect!. I'm an AI Product Manager with Full Stack Knowledge."
 const SITE_TITLE = 'Links | Francesco - AI Product Manager'
 
