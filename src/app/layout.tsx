@@ -4,14 +4,16 @@ import type { Metadata, Viewport } from 'next'
 import '@/styles/globals.css'
 import Footer from '@/components/footer'
 
-import Analytics from './analytics'
 import grid from './grid.svg'
 
 type RootLayoutProps = {
   children: React.ReactNode
 }
 
-const SITE_URL = process.env.NODE_ENV === 'production' ? 'http://localhost:3000' : 'http://localhost:3000'
+const SITE_URL =
+  process.env.NODE_ENV === 'production'
+    ? 'https://links.francescomattera.me'
+    : 'http://localhost:3000'
 const SITE_DESCRIPTION = "Let's connect!. I'm an AI Product Manager with Full Stack Knowledge."
 const SITE_TITLE = 'Links | Francesco - AI Product Manager'
 
@@ -122,7 +124,6 @@ const RootLayout = (props: RootLayoutProps) => {
           <main className='relative mx-auto max-w-lg px-4'>{children}</main>
         </div>
         <Footer />
-        <Analytics />
       </body>
     </html>
   )
